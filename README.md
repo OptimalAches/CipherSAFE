@@ -1,8 +1,30 @@
-# React + Vite
+# 🔐 CipherSAFE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CipherSAFE is the extended version of Cipher_SAFE built with a dedicated backend using **Node.js** and **Express.js**, storing credentials securely in **MongoDB**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Full-stack password manager with persistent data storage  
+- Backend built using **Express.js REST APIs**  
+- CRUD operations for credentials  
+- Direct MongoDB operations using the official MongoDB Node.js driver  
+- Frontend built with React (Vite) and Tailwind CSS  
+- Real-time toast alerts using `react-toastify`  
+- Minimal, responsive user interface  
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React (Vite)  
+- Tailwind CSS  
+- react-toastify  
+- uuid  
+- Font Awesome  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB (Native Node.js Driver)
